@@ -856,12 +856,11 @@ display: inline-block;
 fill: currentColor;
 }
 
-.form-field input:hover,
 .form-field input:focus {
+outline: none;
 border: 1px solid var(--accent-color);
 }
 
-.form-field input:hover~.modal-icon,
 .form-field input:focus~.modal-icon {
 color: var(--accent-color);
 }
@@ -878,6 +877,7 @@ color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-textarea {
+outline: none;
 resize: none;
 height: 120px;
 border: 1px solid rgba(33, 33, 33, 0.2);
