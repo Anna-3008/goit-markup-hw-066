@@ -701,6 +701,10 @@ line-height: 1.25;
 color: var(--footer-contact-color);
 }
 
+.subscription-element input:focus {
+outline: none;
+}
+
 .button-subscription {
 display: inline-flex;
 align-items: center;
